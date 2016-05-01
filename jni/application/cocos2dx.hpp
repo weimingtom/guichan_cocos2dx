@@ -1,0 +1,4 @@
+namespace cocos2dx
+{
+
+}

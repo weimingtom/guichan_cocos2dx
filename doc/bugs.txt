@@ -1,0 +1,2 @@
+* CCLog is not available in CCEGLView.cpp (maybe disable when modifcation)  
+* ,_MBCS->,_UNICODE,UNICODE

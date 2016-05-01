@@ -1,0 +1,7 @@
+﻿
+
+创建纹理用CCImage和CCTextureCache::addUIImage
+释放纹理用CCTextureCache::removeTextureForKey
+添加帧CacheGif用CCSpriteFrame::createWithTexture，CCSpriteFrameCache::addSpriteFrame和CCSprite::setDisplayFrame，
+添加帧InstantGif用CCSprite::setTexture
+定时器刷新用CCNode::scheduleUpdate和CCSprite::Update（继承方法）
