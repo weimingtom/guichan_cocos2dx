@@ -112,12 +112,18 @@ namespace widgets
         slider->setSize(100, 10);
 
         window = new gcn::Window("I am a window  Drag me");
+#if 1
         window->setBaseColor(gcn::Color(255, 150, 200, 190));
-
+		
         darkbitsImage = gcn::Image::load("darkbitslogo_by_haiko.bmp");
         darkbitsIcon = new gcn::Icon(darkbitsImage);
         window->add(darkbitsIcon);
         window->resizeToContent();
+#else		
+		//window->setBaseColor(gcn::Color(255, 150, 200, 255));
+		//window->setWidth(297);
+		//window->setHeight(79);
+#endif
 
         tabbedArea = new gcn::TabbedArea();
         tabbedArea->setSize(200, 100);

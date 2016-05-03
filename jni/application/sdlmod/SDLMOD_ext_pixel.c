@@ -138,7 +138,8 @@ uint32_t SDLMOD_ext_Alpha32(uint32_t src, uint32_t dst, uint8_t a)
     g = ((src & 0xff00) * a + (dst & 0xff00) * (255 - a)) >> 8;
     r = ((src & 0xff0000) * a + (dst & 0xff0000) * (255 - a)) >> 8;
 
-    return (b & 0xff) | (g & 0xff00) | (r & 0xff0000);
+	//FIXME:if no 0xFF000000 and window have alpha base color, display black.
+	return (b & 0xff) | (g & 0xff00) | (r & 0xff0000) | 0xFF000000;
 }
 
 uint16_t SDLMOD_ext_Alpha16(uint16_t src, uint16_t dst, uint8_t a, 

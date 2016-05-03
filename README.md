@@ -6,6 +6,10 @@ Port guichan_memory (guichan) to cocos2dx (cocos2d-x) 2.x (my vc6/mingw32/androi
 * More demos  
 
 ## References  
+* guichan 0.8.2  
+https://code.google.com/p/guichan/  
+* marika_cocos2dx  
+https://github.com/weimingtom/marika_cocos2dx  
 * Cocos2d-x 2.x  
 https://github.com/cocos2d/cocos2d-x  
 * gif-for-cocos2dx  
@@ -34,4 +38,6 @@ $ ant installd
 ## Screenshot
 ![Snapshot](/doc/screenshot001.jpg)    
 
-
+## History:  
+* 2016-05-04: Bug fix, window widget alpha base color bug,  
+* 2016-05-02: First commit.  
