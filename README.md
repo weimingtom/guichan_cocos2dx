@@ -36,7 +36,7 @@ $ ant debug
 $ ant installd  
 
 ## Screenshot
-![Snapshot](/doc/screenshot001.jpg)    
+![Snapshot](/doc/screenshot002.jpg)    
 
 ## History:  
 * 2016-05-04: Bug fix, window widget alpha base color bug,  

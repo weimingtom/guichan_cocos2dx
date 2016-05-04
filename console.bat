@@ -5,6 +5,7 @@
 ::Android NDK
 @set path=%path%;F:\pan1\android-ndk-r9c
 @set path=%path%;E:\android-ndk-r10e
+@set path=%path%;D:\android-ndk-r9c
 
 ::Android SDK
 @set path=%path%;D:\adt-bundle-windows-x86-20140624\sdk\platform-tools
