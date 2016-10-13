@@ -292,8 +292,8 @@ bool CCEGLView::Create()
         RECT rcDesktop;
         GetWindowRect(GetDesktopWindow(), &rcDesktop);
 
-        WCHAR wszBuf[50] = L"hello";//{0};
-        //MultiByteToWideChar(CP_UTF8, 0, m_szViewName, -1, wszBuf, sizeof(wszBuf));
+        WCHAR wszBuf[50] = {0};
+        MultiByteToWideChar(CP_UTF8, 0, m_szViewName, -1, wszBuf, sizeof(wszBuf));
 
         // create window
         m_hWnd = CreateWindowExW(
